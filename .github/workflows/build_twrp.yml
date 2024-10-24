@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/RadGoodNow/experimental_twrp_itel_P682LPN'
+        default: 'https://github.com/WinKarbik/experimental_twrp_itel_P682LPN'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/itel/P682LPN'
+        default: 'device/realme/RE5887'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'P682LPN'
+        default: 'RE5887'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_P682LPN'
+        default: 'twrp_RE5887'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -101,8 +101,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "workspace-folder=$(pwd)" >> $GITHUB_OUTPUT
-        git config --global user.name "Veynamer"
-        git config --global user.email "panferovvladimir62@gmail.com"
+        git config --global user.name "WinKarbik"
+        git config --global user.email "karbainovs@mail.ru"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
           
