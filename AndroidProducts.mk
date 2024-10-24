@@ -1,6 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_P682LPN.mk
+    $(LOCAL_DIR)/twrp_RE5887.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_P682LPN-userdebug \
-    twrp_P682LPN-eng
+    twrp_RE5887-user \
+    twrp_RE5887-userdebug \
+    twrp_RE5887-eng

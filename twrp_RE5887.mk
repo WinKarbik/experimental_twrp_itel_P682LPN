@@ -8,12 +8,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from P682LPN device
-$(call inherit-product, device/itel/P682LPN/device.mk)
+# Inherit from RE5887 device
+$(call inherit-product, device/realme/RE5887/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := P682LPN
-PRODUCT_NAME := twrp_P682LPN
-PRODUCT_BRAND := itel
-PRODUCT_MODEL := Vision 3 Plus
-PRODUCT_MANUFACTURER := itel
+PRODUCT_DEVICE := RE5887
+PRODUCT_NAME := twrp_RE5887
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := RMX3581
+PRODUCT_MANUFACTURER := realme

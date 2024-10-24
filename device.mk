@@ -1,4 +1,4 @@
-LOCAL_PATH := device/itel/P682LPN
+LOCAL_PATH := device/realme/RE5887
 
 # Virtual A/B
 ENABLE_VIRTUAL_AB := true
